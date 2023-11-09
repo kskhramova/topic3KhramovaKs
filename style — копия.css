@@ -1,0 +1,234 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url(./fonts/Oswald/static/Oswald-Regular.ttf);
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(./fonts/Roboto/Roboto-Light.ttf);
+}
+
+body {
+    background-color: #050729ee;
+    height: 100%;
+}
+
+.filter {
+    background-image: url(./images/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
+
+.sidebar-back{
+    background-color: #0b0b0d8f;
+    float: left;
+    width: 300px;
+    height: 100%;
+    flex-shrink: 0;
+    
+}
+
+.sidebar {
+    width: fit-content;
+}
+.logo_img {
+    margin-top: 50px;
+    margin-left: 80px;
+}
+ul {
+    list-style-type: none;
+}
+.menu {
+    padding: 50px 0 100px 0;
+}
+.nav-link:hover{
+    background:transparent url(./images/Marker.png) left no-repeat;
+    padding-left: 0;
+}
+.nav-link{
+    font-family: 'Oswald';
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 50px;
+    text-align: center;
+    font-size: 14px;
+}
+.contacts{
+    padding: 100px 0 20px 0;
+}
+.footer{
+    font-family: 'Oswald';
+    color: #fff50;
+    text-transform: uppercase;
+    line-height: 10px;
+    text-align: center;
+}
+
+.social-media{
+    margin-left: 80%;
+    width: 150px;
+    height: 30px;
+    border-radius: 0px 0px 10px 10px;
+    background: var(--A276FF, #A276FF);
+    position: absolute;
+    display: flex;
+    gap: 40px;
+}
+.tg__logo{
+    margin-left: 20px;
+}
+.content{
+    margin-left: 450px;
+}
+
+.header-text{
+    font-family: 'Oswald';
+    text-transform: uppercase;
+}
+.text {
+    font-family: 'Roboto';
+    color: #fff;
+    color: var(--FFF, #FFF);
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 155%;
+    width: 800px;
+    box-sizing: border-box;
+
+    }
+h1{
+    color: var(--A276FF, #A276FF);
+    font-size: 86px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 84px;
+}
+h2{
+    color: var(--FFF, #FFF);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+}
+.button{
+    border: 3px solid #fff;
+    border-radius: 17px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Oswald';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: none;
+}
+.button:hover{
+    border: 3px solid #fff;
+    border-radius: 17px;
+    width: 352px;
+    height: 70px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Oswald';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    background:  #0b0b0d8f;
+}
+.album {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 49px;
+    margin: 47px 0 47px 0;
+  }
+  
+  .album img {
+    width: 170px;
+    cursor: pointer;
+  }
+  .album img:hover {
+    opacity: 0.5;
+    transition: 2s;
+  }
+h3{
+    color: var(--FFF, #FFF);
+    font-family: 'Oswald';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+h3::after{
+content: url(./images/news_mark.png);
+}
+.news p{
+    font-size: 14px;
+    line-height: 165%;
+    text-align: justify;
+}
+.empry-space {
+    height: 140px;
+}
+.item1-info {
+    width: 800px;
+    height: 650px;
+    flex-shrink: 0;
+    border-radius: 41px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.85);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(15px);
+    margin-left: 450px;
+    display: flex;
+    gap: 40px;
+}
+.item1-text{
+    width: 350px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 0;  
+}
+.item1-text h2{
+    color: #111;
+    font-family: 'Oswald';
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 155%;
+}
+.first{
+    color: #111;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+.simple {
+    color: #111;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+h4 {
+    color: #111;
+    font-family: 'Oswald';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 165%;
+}
+.item1-pic {
+    width: 350px;
+    height: 500px;
+    margin-top: 50px;
+    padding: 0;    
+}
+    
